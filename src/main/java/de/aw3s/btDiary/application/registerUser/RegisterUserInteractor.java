@@ -7,6 +7,11 @@ public class RegisterUserInteractor implements Interactor<RegisterUserResponse, 
 
     @Override
     public RegisterUserResponse apply(RegisterUserRequest registerUserRequest) {
+        //validieren der Benutzerdaten
+        //prüfen ob Benutzer bereits vorhanden ist
+        //Passwort Hash erstellen
+        //Benutzer speichern
+        //Wenn erfolgreich Success-Flag setzen
         return new RegisterUserResponse();
     }
 
