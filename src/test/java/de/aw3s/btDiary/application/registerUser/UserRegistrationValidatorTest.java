@@ -56,7 +56,7 @@ public class UserRegistrationValidatorTest {
         user.setEmailAddress("");
         List<? extends Violation> violations = validator.validate(user);
 
-        assertTrue(violations.size() == 1);
+        assertTrue(violations.size() == 2);
         assertEquals(ConstraintViolationType.BLANK, violations.get(0).getType());
         assertEquals("emailAddress", violations.get(0).getPropertyName());
         assertEquals(user, violations.get(0).getOffender());
