@@ -1,11 +1,8 @@
-package de.aw3s.btDiary;
+package de.aw3s.btDiary.application.registerUser;
 
-import de.aw3s.btDiary.application.registerUser.RegisterUserDao;
-import de.aw3s.btDiary.application.registerUser.RegisterUserInteractor;
-import de.aw3s.btDiary.application.registerUser.RegisterUserRequest;
-import de.aw3s.btDiary.application.registerUser.RegisterUserResponse;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class RegisterUserInteractorTest {
 
