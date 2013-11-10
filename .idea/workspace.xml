@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9414d304-a1d8-47b0-8446-118ce481d612" name="UML" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/EmailAddressValidator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/EmailAddressValidatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/IsNotBlankValidatorTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/ViolationAssert.java" />
+    <list default="true" id="9414d304-a1d8-47b0-8446-118ce481d612" name="UML" comment="target directory deleted from Repository.&#10;maven configuration&#10;- pmd (Code Quality)&#10;- surefire (Reporting for Unit Tests)&#10;- cobertura (Test Coverage)&#10;- dashboard &#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/reflection/ReflactorTest.java" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
@@ -26,19 +22,15 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/App.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/interactor/Interactor.java" afterPath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/interactor/Interactor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java" afterPath="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Validator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Violation.java" afterPath="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Violation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/btDiary.iml" afterPath="$PROJECT_DIR$/btDiary.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="btDiary.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384007264274" ignored="false" />
+    <file path="/Dummy.txt" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384085256449" ignored="false" />
     <file path="/RegisterNewUserInteractor.java" changelist="30e336fc-5676-4ced-a06b-b1e71fc9e1c1" time="1383297428901" ignored="false" />
-    <file path="/fragment.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1383999120370" ignored="false" />
+    <file path="/fragment.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384082366217" ignored="false" />
     <file path="/Interactor.java" changelist="30e336fc-5676-4ced-a06b-b1e71fc9e1c1" time="1383296074952" ignored="false" />
     <file path="/RegisterUserDao.java" changelist="30e336fc-5676-4ced-a06b-b1e71fc9e1c1" time="1383295775721" ignored="false" />
     <file path="/RegisterUserInteractorTest.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384015264470" ignored="false" />
@@ -58,12 +50,12 @@
     <file path="/IsNotBlankValidatorTest.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1383999767162" ignored="false" />
     <file path="/EmailAddressValidatorTest.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1383999720037" ignored="false" />
     <file path="/ViolationAssert.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1383999617548" ignored="false" />
-    <file path="/pom.xml" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384018426962" ignored="false" />
-    <file path="/a.dummy" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384014182551" ignored="false" />
+    <file path="/pom.xml" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384084510151" ignored="false" />
+    <file path="/a.dummy" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384084191318" ignored="false" />
     <file path="/TestEntity.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384014198497" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/ConstraintViolationType.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384016994443" ignored="false" />
-    <file path="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/IsNotBlankValidator.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384016994443" ignored="false" />
     <file path="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/ConstraintViolation.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384016994445" ignored="false" />
+    <file path="/ReflactorTest.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384082819238" ignored="false" />
+    <file path="/MockEntity.java" changelist="9414d304-a1d8-47b0-8446-118ce481d612" time="1384082994498" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +70,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -115,6 +106,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -127,27 +119,25 @@
       <file leaf-file-name="UserRegistrationValidator.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="1" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+            <state line="16" column="70" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegisterUserInteractorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/RegisterUserInteractorTest.java">
+      <file leaf-file-name="Reflactor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/reflection/Reflactor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="359" selection-end="359" vertical-scroll-proportion="-9.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="12" column="38" selection-start="421" selection-end="437" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsNotBlankValidatorTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/IsNotBlankValidatorTest.java">
+      <file leaf-file-name="ReflactorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/reflection/ReflactorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="69" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+            <state line="27" column="91" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -158,8 +148,46 @@
       <file leaf-file-name="MockEntity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="2" column="7" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViolationAssert.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/ViolationAssert.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IsNotBlankValidatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/IsNotBlankValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="69" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRegistrationValidatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="33" selection-start="2086" selection-end="2086" vertical-scroll-proportion="-19.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailAddressValidatorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/EmailAddressValidatorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="22" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,34 +195,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="127" selection-start="855" selection-end="855" vertical-scroll-proportion="0.36627907">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Violation.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Violation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="4" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViolationType.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/ViolationType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="17" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Interactor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/interactor/Interactor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="49" selection-end="55" vertical-scroll-proportion="0.0">
+            <state line="133" column="13" selection-start="5037" selection-end="5037" vertical-scroll-proportion="0.6791444">
               <folding />
             </state>
           </provider>
@@ -204,15 +205,6 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Validator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="7" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterUserInteractor.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/registerUser/RegisterUserInteractor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="116" selection-start="169" selection-end="227" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,7 +228,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/ConstraintViolation.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/EmailAddressValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/ViolationAssert.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/EmailAddressValidatorTest.java" />
@@ -245,21 +236,22 @@
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/ConstraintViolationType.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/TestEntity.java" />
-        <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/interactor/Interactor.java" />
         <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/RegisterUserInteractorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/validation/Violation.java" />
         <option value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/reflection/ReflactorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-4" />
-    <option name="width" value="1617" />
-    <option name="height" value="1055" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1615" />
+    <option name="height" value="1026" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -324,7 +316,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -429,7 +420,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="registerUser" />
+              <option name="myItemId" value="reflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,7 +438,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -456,6 +447,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="registerUser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -486,6 +481,62 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="validation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="btDiary" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reflection" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -560,18 +611,19 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="183" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="184" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="184" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="183" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="183" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="188" />
@@ -585,46 +637,75 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/de/aw3s/btDiary" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="de.aw3s.btDiary.reflection" />
       <recent name="de.aw3s.btDiary.tValidation" />
       <recent name="de.aw3s.btDiary.application.registerUser" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="de.aw3s.btDiary.application.validators" />
       <recent name="de.aw3s.btDiary.application.registerUser" />
       <recent name="de.aw3s.btDiary.application.interactor" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="de.aw3s.btDiary.application.registerUser" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/uml" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="de.aw3s.btDiary.application.registerUser" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserRegistrationValidatorTest.testEmailAddressIsBlank">
-    <configuration default="false" name="IsNotBlankValidatorTest.testIsBlank" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.EmailAddressValidatorTest.testEmailIsNotValid">
+    <configuration default="false" name="UserRegistrationValidatorTest.testEmailAddressIsBlank" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="btDiary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.tValidation" />
-      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.tValidation.IsNotBlankValidatorTest" />
-      <option name="METHOD_NAME" value="testIsBlank" />
+      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.application.registerUser" />
+      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.application.registerUser.UserRegistrationValidatorTest" />
+      <option name="METHOD_NAME" value="testEmailAddressIsBlank" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReflactorTest.testGetStringProperty" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="btDiary" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.reflection" />
+      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.reflection.ReflactorTest" />
+      <option name="METHOD_NAME" value="testGetStringProperty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -640,14 +721,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="IsNotBlankValidatorTest.testIsNotBlank" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ReflactorTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="btDiary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.tValidation" />
-      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.tValidation.IsNotBlankValidatorTest" />
-      <option name="METHOD_NAME" value="testIsNotBlank" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.reflection" />
+      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.reflection.ReflactorTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -662,13 +743,13 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="EmailAddressValidatorTest.testEmailIsValid" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="ReflactorTest.testExceptionHandling" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="btDiary" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.tValidation" />
-      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.tValidation.EmailAddressValidatorTest" />
-      <option name="METHOD_NAME" value="testEmailIsValid" />
+      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.reflection" />
+      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.reflection.ReflactorTest" />
+      <option name="METHOD_NAME" value="testExceptionHandling" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -706,34 +787,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="UserRegistrationValidatorTest.testEmailAddressIsBlank" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="btDiary" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="de.aw3s.btDiary.application.registerUser" />
-      <option name="MAIN_CLASS_NAME" value="de.aw3s.btDiary.application.registerUser.UserRegistrationValidatorTest" />
-      <option name="METHOD_NAME" value="testEmailAddressIsBlank" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -746,6 +799,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -773,19 +839,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -823,19 +876,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.IsNotBlankValidatorTest.testIsBlank" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.IsNotBlankValidatorTest.testIsNotBlank" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsValid" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsNotValid" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserRegistrationValidatorTest.testEmailAddressIsBlank" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.UserRegistrationValidatorTest.testEmailAddressIsBlank" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ReflactorTest.testGetStringProperty" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ReflactorTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ReflactorTest.testExceptionHandling" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsNotValid" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.UserRegistrationValidatorTest.testEmailAddressIsBlank" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.IsNotBlankValidatorTest.testIsBlank" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsNotValid" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsValid" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.IsNotBlankValidatorTest.testIsNotBlank" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.EmailAddressValidatorTest.testEmailIsNotValid" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.ReflactorTest.testExceptionHandling" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.ReflactorTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.ReflactorTest.testGetStringProperty" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UserRegistrationValidatorTest.testEmailAddressIsBlank" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -883,7 +936,11 @@
       <created>1384000577511</created>
       <updated>1384000577512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=".idea directory deleted from Repository.&#10;maven configuration&#10;- pmd (Code Quality)&#10;- surefire (Reporting for Unit Tests)&#10;- cobertura (Test Coverage)&#10;- dashboard &#10;">
+      <created>1384019810254</created>
+      <updated>1384019810254</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -907,13 +964,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="1617" height="1055" extended-state="6" />
+    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296582" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3296582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -924,11 +981,11 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239006" sideWeight="0.67254686" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984066" sideWeight="0.67254686" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25239006" sideWeight="0.6703418" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32855567" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984066" sideWeight="0.67254686" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -974,7 +1031,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validator Modul hinzugefügt&#10;Validator Implementierung tValidator hinzugefügt" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea directory deleted from Repository.&#10;maven configuration&#10;- pmd (Code Quality)&#10;- surefire (Reporting for Unit Tests)&#10;- cobertura (Test Coverage)&#10;- dashboard &#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -990,6 +1047,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="UML" />
     <MESSAGE value="Validator Modul hinzugefügt&#10;Validator Implementierung tValidator hinzugefügt" />
+    <MESSAGE value=".idea directory deleted from Repository.&#10;maven configuration&#10;- pmd (Code Quality)&#10;- surefire (Reporting for Unit Tests)&#10;- cobertura (Test Coverage)&#10;- dashboard &#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -999,56 +1057,12 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/ConstraintViolationType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/registerUser/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="317" selection-end="317" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/EmailAddressValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/IsNotBlankValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/tValidation/EmailAddressValidator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="0" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="33" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,10 +1075,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/RegisterUserInteractorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="359" selection-end="359" vertical-scroll-proportion="-9.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="15" column="23" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1096,9 +1108,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/ViolationAssert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/reflection/Reflactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="38" selection-start="421" selection-end="437" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/reflection/ReflactorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="91" selection-start="627" selection-end="627" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+        <state line="16" column="70" selection-start="539" selection-end="539" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1106,15 +1141,36 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/IsNotBlankValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="69" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/application/registerUser/UserRegistrationValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="33" selection-start="2086" selection-end="2086" vertical-scroll-proportion="-19.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/EmailAddressValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/de/aw3s/btDiary/tValidation/MockEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="127" selection-start="855" selection-end="855" vertical-scroll-proportion="0.36627907">
+        <state line="133" column="13" selection-start="5037" selection-end="5037" vertical-scroll-proportion="0.6791444">
           <folding />
         </state>
       </provider>
