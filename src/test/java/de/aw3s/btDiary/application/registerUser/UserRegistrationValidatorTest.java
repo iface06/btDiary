@@ -7,12 +7,22 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.junit.Assert.assertEquals;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class UserRegistrationValidatorTest {
 
     private User user;
     private UserRegistrationValidator validator;
+    private List<User> alreadyExistingUsers = new ArrayList<>();
+    private RegisterUserDao dao = new RegisterUserDao() {
+        @Override
+        public List<User> findUserByEmailAddress(String emailAddress) {
+            return alreadyExistingUsers;
+        }
+    };
+
+
 
     @Test
     public void testValidUserRegistration(){
@@ -24,6 +34,7 @@ public class UserRegistrationValidatorTest {
     @Before
     public void before() {
         validator = new UserRegistrationValidator();
+        validator.setDao(dao);
         createValidUser();
     }
 

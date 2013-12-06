@@ -2,11 +2,12 @@ package de.aw3s.btDiary.tValidation;
 
 import de.aw3s.btDiary.validation.Violation;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
-import static de.aw3s.btDiary.tValidation.ViolationAssert.*;
+import static de.aw3s.btDiary.tValidation.ViolationAssert.assertViolation;
+import static org.junit.Assert.assertNull;
 
 public class EmailAddressValidatorTest {
+
     @Test
     public void testEmailIsValid() {
 
