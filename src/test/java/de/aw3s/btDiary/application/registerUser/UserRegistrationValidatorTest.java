@@ -4,11 +4,12 @@ import de.aw3s.btDiary.tValidation.ConstraintViolationType;
 import de.aw3s.btDiary.validation.Violation;
 import org.junit.Before;
 import org.junit.Test;
-import static org.junit.Assert.*;
-import static org.junit.Assert.assertEquals;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class UserRegistrationValidatorTest {
 
@@ -43,10 +44,13 @@ public class UserRegistrationValidatorTest {
         user.setPassword("");
         List<? extends Violation> violations = validator.validate(user);
 
-        assertTrue(violations.size() == 1);
+        assertTrue(violations.size() == 2);
         assertEquals(ConstraintViolationType.BLANK, violations.get(0).getType());
+        assertEquals(ConstraintViolationType.UNSAFE, violations.get(1).getType());
         assertEquals("password", violations.get(0).getPropertyName());
+        assertEquals("password", violations.get(1).getPropertyName());
         assertEquals(user, violations.get(0).getOffender());
+        assertEquals(user, violations.get(1).getOffender());
 
     }
 
@@ -89,7 +93,7 @@ public class UserRegistrationValidatorTest {
     private void createValidUser() {
         user = new User();
         user.setUserName("User");
-        user.setPassword("123456");
+        user.setPassword("T!135ads");
         user.setEmailAddress("user@aw3s.de");
     }
 }

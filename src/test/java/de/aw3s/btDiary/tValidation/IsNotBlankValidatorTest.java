@@ -1,9 +1,10 @@
 package de.aw3s.btDiary.tValidation;
 
 import de.aw3s.btDiary.validation.Violation;
-import static org.junit.Assert.*;
-import static de.aw3s.btDiary.tValidation.ViolationAssert.*;
 import org.junit.Test;
+
+import static de.aw3s.btDiary.tValidation.ViolationAssert.assertViolation;
+import static org.junit.Assert.assertNull;
 
 public class IsNotBlankValidatorTest {
 

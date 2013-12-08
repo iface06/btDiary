@@ -6,5 +6,6 @@ public enum ConstraintViolationType implements ViolationType {
 
     BLANK,
     NON_VALID_EMAIL_ADDRESS,
-    AlREADY_EXIST;
+    AlREADY_EXIST,
+    UNSAFE;
 }

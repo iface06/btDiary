@@ -2,13 +2,14 @@ package de.aw3s.btDiary.application.registerUser;
 
 import de.aw3s.btDiary.tValidation.ConstraintViolationType;
 import de.aw3s.btDiary.validation.Violation;
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.*;
 import static de.aw3s.btDiary.tValidation.ViolationAssert.assertViolation;
+import static org.junit.Assert.assertNull;
 
 public class DoesAccountWithEmailAddressAlreadyExistTest {
 

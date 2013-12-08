@@ -4,6 +4,7 @@ import de.aw3s.btDiary.tValidation.ConstraintViolation;
 import de.aw3s.btDiary.tValidation.ConstraintViolationType;
 import de.aw3s.btDiary.validation.Validator;
 import de.aw3s.btDiary.validation.Violation;
+
 import java.util.List;
 
 public class DoesUserAlreadyExist implements Validator<User> {

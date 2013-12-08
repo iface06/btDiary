@@ -2,7 +2,8 @@ package de.aw3s.btDiary.tValidation;
 
 import de.aw3s.btDiary.validation.Violation;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 public class ViolationAssert {
 
