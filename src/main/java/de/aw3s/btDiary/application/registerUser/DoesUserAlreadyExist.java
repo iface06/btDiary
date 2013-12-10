@@ -7,21 +7,21 @@ import de.aw3s.btDiary.validation.Violation;
 
 import java.util.List;
 
-public class DoesUserAlreadyExist implements Validator<User> {
+public class DoesUserAlreadyExist implements Validator<RegisterUserRequest> {
     private RegisterUserDao dao;
 
     @Override
-    public Violation validate(User user, String propertyName) {
-        List<User> alreadyRegisteredUsers = findActiveUserWithEmailAddress(user.getEmailAddress());
-        return alreadyRegisteredUsers.isEmpty() ? null : userAlreadyExistViolation(user, propertyName);
+    public Violation validate(RegisterUserRequest userRegistration, String propertyName) {
+        List<User> alreadyRegisteredUsers = findActiveUserWithEmailAddress(userRegistration.getEmailAddress());
+        return alreadyRegisteredUsers.isEmpty() ? null : userAlreadyExistViolation(userRegistration, propertyName);
     }
 
     public void setDao(RegisterUserDao dao) {
         this.dao = dao;
     }
 
-    protected Violation<User> userAlreadyExistViolation(User user, String propertyName) {
-        return new ConstraintViolation<User>(user, propertyName, ConstraintViolationType.AlREADY_EXIST);
+    protected Violation<RegisterUserRequest> userAlreadyExistViolation(RegisterUserRequest user, String propertyName) {
+        return new ConstraintViolation<>(user, propertyName, ConstraintViolationType.AlREADY_EXIST);
     }
 
     protected List<User> findActiveUserWithEmailAddress(String emailAddress) {

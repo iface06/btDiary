@@ -14,19 +14,24 @@ import static org.junit.Assert.assertNull;
 public class DoesAccountWithEmailAddressAlreadyExistTest {
 
     private DoesUserAlreadyExist validator;
-    private User user;
+    private RegisterUserRequest user;
     private static List<User> users;
     RegisterUserDao dao = new RegisterUserDao() {
         @Override
         public List<User> findUserByEmailAddress(String emailAddress) {
             return users;
         }
+
+        @Override
+        public User store(User user) {
+            return new User();
+        }
     };
 
     @Before
     public void before(){
         users = new ArrayList<>();
-        user = createUser("test@test.lo");
+        user = createRegisterUserReqeust("test@test.lo");
         validator = new DoesUserAlreadyExist();
         validator.setDao(dao);
     }
@@ -51,6 +56,12 @@ public class DoesAccountWithEmailAddressAlreadyExistTest {
         User user = new User();
         user.setEmailAddress(emailAddress);
         return user;
+    }
+
+    private RegisterUserRequest createRegisterUserReqeust(String emailAddress) {
+        RegisterUserRequest request = new RegisterUserRequest();
+        request.setEmailAddress(emailAddress);
+        return request;
     }
 
 

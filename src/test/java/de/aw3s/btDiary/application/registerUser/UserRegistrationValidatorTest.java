@@ -1,6 +1,7 @@
 package de.aw3s.btDiary.application.registerUser;
 
-import de.aw3s.btDiary.tValidation.ConstraintViolationType;
+import static de.aw3s.btDiary.tValidation.ConstraintViolationType.*;
+import static de.aw3s.btDiary.tValidation.ViolationAssert.*;
 import de.aw3s.btDiary.validation.Violation;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,18 +9,22 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 
-import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class UserRegistrationValidatorTest {
 
-    private User user;
+    private RegisterUserRequest user;
     private UserRegistrationValidator validator;
     private List<User> alreadyExistingUsers = new ArrayList<>();
     private RegisterUserDao dao = new RegisterUserDao() {
         @Override
         public List<User> findUserByEmailAddress(String emailAddress) {
             return alreadyExistingUsers;
+        }
+
+        @Override
+        public User store(User user) {
+            return new User();
         }
     };
 
@@ -45,25 +50,19 @@ public class UserRegistrationValidatorTest {
         List<? extends Violation> violations = validator.validate(user);
 
         assertTrue(violations.size() == 2);
-        assertEquals(ConstraintViolationType.BLANK, violations.get(0).getType());
-        assertEquals(ConstraintViolationType.UNSAFE, violations.get(1).getType());
-        assertEquals("password", violations.get(0).getPropertyName());
-        assertEquals("password", violations.get(1).getPropertyName());
-        assertEquals(user, violations.get(0).getOffender());
-        assertEquals(user, violations.get(1).getOffender());
-
+        assertViolation(violations.get(0), user, "password", BLANK);
+        assertViolation(violations.get(1), user, "password", UNSAFE);
     }
 
     @Test
     public void testUserNameIsBlank(){
-        user.setUserName("");
+        user.setFirstName("");
         List<? extends Violation> violations = validator.validate(user);
 
-        assertTrue(violations.size() == 1);
-        assertEquals(ConstraintViolationType.BLANK, violations.get(0).getType());
-        assertEquals("userName", violations.get(0).getPropertyName());
-        assertEquals(user, violations.get(0).getOffender());
 
+
+        assertTrue(violations.size() == 1);
+        assertViolation(violations.get(0), user, "firstName", BLANK);
     }
 
     @Test
@@ -72,9 +71,7 @@ public class UserRegistrationValidatorTest {
         List<? extends Violation> violations = validator.validate(user);
 
         assertTrue(violations.size() == 2);
-        assertEquals(ConstraintViolationType.BLANK, violations.get(0).getType());
-        assertEquals("emailAddress", violations.get(0).getPropertyName());
-        assertEquals(user, violations.get(0).getOffender());
+        assertViolation(violations.get(0), user, "emailAddress", BLANK);
     }
 
     @Test
@@ -83,17 +80,14 @@ public class UserRegistrationValidatorTest {
         List<? extends Violation> violations = validator.validate(user);
 
         assertTrue(violations.size() == 1);
-        assertEquals(ConstraintViolationType.NON_VALID_EMAIL_ADDRESS, violations.get(0).getType());
-        assertEquals("emailAddress", violations.get(0).getPropertyName());
-        assertEquals(user, violations.get(0).getOffender());
+        assertViolation(violations.get(0), user, "emailAddress", NON_VALID_EMAIL_ADDRESS);
     }
 
-
-
     private void createValidUser() {
-        user = new User();
-        user.setUserName("User");
+        user = new RegisterUserRequest();
+        user.setFirstName("Max");
+        user.setLastName("Mustermann");
         user.setPassword("T!135ads");
-        user.setEmailAddress("user@aw3s.de");
+        user.setEmailAddress("max@mustermann.local");
     }
 }

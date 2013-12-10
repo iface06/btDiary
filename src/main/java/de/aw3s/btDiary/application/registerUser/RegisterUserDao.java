@@ -5,4 +5,5 @@ import java.util.List;
 
 public interface RegisterUserDao {
     List<User> findUserByEmailAddress(String emailAddress);
+    User store(User user);
 }
